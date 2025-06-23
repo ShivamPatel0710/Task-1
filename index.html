@@ -18,11 +18,16 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="hero">
-    <h2>Welcome to MySite</h2>
-    <p>This is a simple website example.</p>
-    <a href="#" class="btn">Get Started</a>
-  </section>
+<!-- Hero Section -->
+<section class="hero">
+  <h2>Welcome to MySite</h2>
+  <p>This is a simple website example.</p>
+  <br>
+  <p>This button is to open a new tab on your browser.</p>
+  <button class="btn" onclick="openNewTab()">Get Started</button>
+
+</section>
+
 
   <!-- Footer -->
   <footer>
@@ -33,6 +38,12 @@
       <a href="#">Instagram</a>
     </p>
   </footer>
+
+  <script>
+  function openNewTab() {
+    window.open('', '_blank');
+  }
+</script>
 
 </body>
 </html>
